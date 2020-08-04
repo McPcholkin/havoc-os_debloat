@@ -1,0 +1,6 @@
+id=havoc-os_debloat
+name=Havoc-OS debloat
+version=Ver: 1
+versionCode=1
+author=McPcholkin
+description=Cleanup Havoc-OS from: AntHalService, EasterEgg, FM2 
