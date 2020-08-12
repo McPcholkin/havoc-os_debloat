@@ -1,6 +1,6 @@
 id=havoc-os_debloat
 name=Havoc-OS debloat
-version=Ver: 1
+version=Ver: 0.0.1
 versionCode=1
 author=McPcholkin
-description=Cleanup Havoc-OS from: AntHalService, EasterEgg, FM2 
+description=Cleanup Havoc-OS from: AntHalService, EasterEgg, FM2, Browser, Stk, PrintSpooler, BuiltInPrintService, LiveWallpapersPicker, Snap, CellBroadcastReceiver

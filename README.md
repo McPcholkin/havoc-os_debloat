@@ -6,6 +6,12 @@ For now in list:
 * AntHalService
 * EasterEgg
 * FM2
-
+* Browser
+* Stk
+* PrintSpooler
+* BuiltInPrintService
+* LiveWallpapersPicker
+* Snap
+* CellBroadcastReceiver
 
 
