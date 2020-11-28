@@ -9,5 +9,6 @@ REPLACE="
 /system/app/LiveWallpapersPicker
 /system/priv-app/Snap
 /system/priv-app/CellBroadcastReceiver
+/system/product/app/GalleryGoPrebuilt
 "
 

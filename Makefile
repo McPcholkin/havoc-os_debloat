@@ -1,4 +1,4 @@
-test_file: clean
+make_magisk_module: 
 	zip -r havoc-os_debloat.zip \
 	META-INF \
     LICENSE \
