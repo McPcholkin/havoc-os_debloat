@@ -13,5 +13,5 @@ For now in list:
 * LiveWallpapersPicker
 * Snap
 * CellBroadcastReceiver
-
+* GalleryGoPrebuilt
 

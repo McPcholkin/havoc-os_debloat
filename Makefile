@@ -6,5 +6,8 @@ make_magisk_module:
 	module.prop \
 	customize.sh
 
+push:
+	adb push havoc-os_debloat.zip /sdcard/
+
 clean: 
 	rm havoc-os_debloat.zip
