@@ -1,13 +1,14 @@
-make_magisk_module: 
-	zip -r havoc-os_debloat.zip \
-	META-INF \
-	LICENSE \
-	README.md \
-	module.prop \
-	customize.sh
+magiskModuleName = $(shell basename `pwd`)
 
-push:
-	adb push havoc-os_debloat.zip /sdcard/
+all: clean make-magisk-module adb-push
+.PHONY: all
+
+make-magisk-module: 
+	zip -r ${magiskModuleName}.zip ./* --exclude .gitignore Makefile \*.zip .git/
+
+adb-push:
+	adb push ${magiskModuleName}.zip /sdcard/magiskModules/
 
 clean: 
-	rm havoc-os_debloat.zip
+	rm ${magiskModuleName}.zip
+
